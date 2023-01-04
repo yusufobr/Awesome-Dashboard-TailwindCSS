@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="75" viewBox="0 0 210 75">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="210" height="75" rx="10" transform="translate(812 215)" fill="#4f46ba"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_292" data-name="Rectangle 292" transform="translate(-812 -215)" clip-path="url(#clip-path)">
+    <g id="Group_713" data-name="Group 713">
+      <text id="Likes" transform="translate(831 231)" fill="#fff" font-size="14" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700" opacity="0.4"><tspan x="0" y="14">LIKES</tspan></text>
+      <text id="_125_685" data-name="125,685" transform="translate(831 255)" fill="#fff" font-size="14" font-family="Gilroy-Regular, Gilroy-Regular ☞"><tspan x="0" y="13">125,685</tspan></text>
+    </g>
+    <path id="Vector" d="M78,.015c22.263.78,30.328,29.523,42.471,48.161C129.082,61.388,137.17,74.8,137,90.56c-.171,15.582-7.4,29.532-17.444,41.465C108.3,145.395,95.115,157.013,78,160.652c-21.809,4.638-47.711,8.97-64.053-6.17C-2.582,139.166-1.408,112.757,2.345,90.56c3.148-18.62,17.98-30.964,30.1-45.467C46.681,28.054,55.785-.763,78,.015Z" transform="matrix(0.95, -0.311, 0.311, 0.95, 932, 217.593)" fill="#84e8f4"/>
+    <path id="Vector-2" data-name="Vector" d="M78,.015c22.263.78,30.328,29.523,42.471,48.161C129.082,61.388,137.17,74.8,137,90.56c-.171,15.582-7.4,29.532-17.444,41.465C108.3,145.395,95.115,157.013,78,160.652c-21.809,4.638-47.711,8.97-64.053-6.17C-2.582,139.166-1.408,112.757,2.345,90.56c3.148-18.62,17.98-30.964,30.1-45.467C46.681,28.054,55.785-.763,78,.015Z" transform="matrix(0.95, -0.311, 0.311, 0.95, 922, 217.593)" fill="#84e8f4" opacity="0.2"/>
+  </g>
+</svg>
