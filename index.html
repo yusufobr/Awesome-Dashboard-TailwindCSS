@@ -143,20 +143,198 @@
         <!-- Analytics & Events -->
         <div class="grid grid-cols-11 gap-4">
           <!-- Analytics -->
-          <div class="flex flex-col col-span-7 space-y-8 pl-8">
-            <div class="">
-              <span class="text-lg font-semibold">Analytics</span>
-              <!-- Chart  -->
-              <div class="shadow-lg rounded-lg overflow-hidden">
-                <div class="py-3 px-5 bg-gray-50">Line chart</div>
-                <canvas class="p-10" id="chartLine"></canvas>
+          <div class="flex flex-col col-span-7 my-8 space-y-10 pl-8">
+            <span class="text-lg font-semibold">Analytics</span>
+            <!-- Chart  -->
+            <div class="shadow-lg mt-8 rounded-lg overflow-hidden">
+              <div class="py-3 px-5 font-semibold text-[#1B2767]">
+                Daily Views
+              </div>
+              <canvas class="p-10" id="chartLine"></canvas>
+            </div>
+            <!-- 2nd part -->
+            <div class="grid grid-cols-4 gap-4 my-8">
+              <!-- Grid 1 -->
+              <div
+                class="flex flex-col col-span-2 bg-[#F2E9FF] shadow-md rounded-xl space-y-4 p-6"
+              >
+                <div class="flex flex-row justify-between items-center">
+                  <img class="rounded-lg w-24" src="/img/empire.png" alt="" />
+                  <a href="#" class="scale-150"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="3"
+                      stroke="white"
+                      class="w-8 h-8 p-2 rounded-full bg-[#51459E]"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 5.25v13.5m-7.5-13.5v13.5"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="flex flex-col space-y-1">
+                  <span class="font-medium">Strange Clouds Formation</span>
+                  <p class="text-xs text-gray-500">By Mike Taylor</p>
+                </div>
+              </div>
+              <!-- Grid 2 -->
+              <div
+                class="flex flex-col items-center shadow-md p-6 justify-between rounded-xl bg-white space-y-2"
+              >
+                <div class="bg-[#84E8F4] rounded-full scale-125 p-2 mt-[34%]">
+                  <img class="mx-auto mt-auto" src="/img/Calendar.png" alt="" />
+                </div>
+                <span class="font-medium text-center">Scheduled Posts</span>
+              </div>
+              <!-- Grid 3 -->
+              <div
+                class="flex flex-col items-center shadow-md p-6 justify-between rounded-xl bg-white space-y-2"
+              >
+                <div class="bg-[#84E8F4] rounded-full scale-125 p-2 mt-[34%]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="white"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </div>
+                <span class="font-medium text-center">Add New Post</span>
               </div>
             </div>
           </div>
           <!-- Events -->
-          <div class="flex flex-col col-span-4 space-y-8 pr-8">
-            <div class="bg-red-600">
-              <span class="text-lg font-semibold">Events Distribution</span>
+          <div class="flex flex-col col-span-4 my-8 space-y-10 pr-8">
+            <span class="text-lg font-semibold">Events Distribution</span>
+            <div class="flex flex-col items-center space-y-8">
+              <div class="py-3 px-5 font-semibold text-[#1B2767]">
+                Last 30 Days Performance
+              </div>
+              <img
+                class="h-[200px] w-[200px]"
+                src="/img/Chart Doughnut chart.svg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col items-center pt-12 space-y-8">
+              <span>Events Distribution</span>
+              <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex flex-row space-x-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-8 h-8 p-2 bg-[#F9896B] rounded-full"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                  <span class="text-gray-500">Likes</span>
+                </div>
+                <div class="flex flex-row space-x-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-8 h-8 p-2 bg-[#84E8F4] rounded-full"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <span class="text-gray-500">Views</span>
+                </div>
+                <div class="flex flex-row space-x-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-8 h-8 p-2 bg-[#FFBC65] rounded-full"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z"
+                    />
+                  </svg>
+                  <span class="text-gray-500">Follwers</span>
+                </div>
+                <div class="flex flex-row space-x-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-8 h-8 p-2 bg-[#51459E] rounded-full"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"
+                    />
+                  </svg>
+                  <span class="text-gray-500">Shares</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Statistics -->
+        <div class="flex flex-col space-y-8 px-8 pb-12">
+          <span class="text-lg font-semibold">Statistics</span>
+          <div class="grid grid-cols-2 gap-6">
+            <div
+              class="flex flex-row space-x-4 items-center justify-around bg-white drop-shadow-lg rounded-xl p-6"
+            >
+              <div class="flex flex-col space-y-2">
+                <span class="font-medium">Weekly Target</span>
+                <p class="text-sm text-gray-500">25% achieved</p>
+              </div>
+              <div class="border-r-2 border-white h-20"></div>
+              <div class="px-5 py-6 border-8 border-red-400 rounded-full">
+                <span>25%</span>
+              </div>
+            </div>
+            <div
+              class="flex flex-row space-x-4 items-center justify-around text-white bg-[#51459E] drop-shadow-xl rounded-xl p-6"
+            >
+              <div class="flex flex-col space-y-2">
+                <span class="font-medium">Montly Target</span>
+                <p class="text-sm">50% achieved</p>
+              </div>
+              <div class="border-r-2 border-white h-20"></div>
+              <div class="px-5 py-6 border-8 border-red-400 rounded-full">
+                <span>50%</span>
+              </div>
             </div>
           </div>
         </div>
@@ -167,7 +345,6 @@
 
     <!-- Required chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Chart line -->
     <script src="/myChart.js"></script>
   </body>
 </html>
